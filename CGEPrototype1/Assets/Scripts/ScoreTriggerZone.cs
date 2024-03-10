@@ -6,6 +6,8 @@ public class ScoreTriggerZone : MonoBehaviour
 {
     bool active = true;
 
+    public AudioSource scoreSound;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (active && collision.gameObject.tag == "Player")
@@ -13,6 +15,8 @@ public class ScoreTriggerZone : MonoBehaviour
             active = false;
 
             ScoreManager.score++;
+
+            scoreSound.Play();
         }
     }
 
