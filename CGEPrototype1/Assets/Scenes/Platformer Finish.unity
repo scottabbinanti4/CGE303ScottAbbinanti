@@ -1521,7 +1521,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc0861e895190ec458306d005e267c03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textbox: {fileID: 0}
+  textbox: {fileID: 1399818062}
   scoreToWin: 10
 --- !u!82 &1116884395
 AudioSource:
